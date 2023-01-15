@@ -4,15 +4,19 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
 import Header from './components/Header/Header';
-
-// #858585 - light grey
+import LandingPage from './components/LandingPage/LandingPage';
 
 function App() {
   return (
     <div
       style={{ backgroundColor: '#4d4d4d', height: '100vh', width: '100vw' }}
     >
-      <Header />
+      <div>
+        <Header />
+      </div>
+      <div>
+        <LandingPage />
+      </div>
     </div>
   );
 }
